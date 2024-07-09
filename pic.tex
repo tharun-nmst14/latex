@@ -1,0 +1,33 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{subcaption}
+
+\begin{document}
+	\begin{figure}
+		\centering
+		 \includegraphics[width=0.5\textwidth]{mypic2.jpg}
+		 \caption{image}
+		 \label{fig}
+	\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=0.5\linewidth]{mypic.jpg}
+		\caption{imge 1}
+		\label{fig1}
+	\end{subfigure}
+
+		\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=0.5\linewidth]{mypic2.jpg}
+		\caption{img 2}
+		\label{fig2}
+	\end{subfigure}
+	 
+\end{figure}
+
+		
+\end{document}	
+	
